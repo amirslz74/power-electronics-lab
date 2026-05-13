@@ -1,0 +1,96 @@
+# Current-Controlled PWM Power Stage
+
+STM32-based PWM power control system with closed-loop current regulation for high-current switching applications.
+
+## Overview
+
+This project focuses on the development of a high-frequency PWM power stage with real-time current control and feedback regulation.
+
+The system is designed for applications requiring:
+
+- Accurate current limiting
+- Stable PWM-driven power delivery
+- Fast transient response
+- MOSFET-based high-current switching
+- Analog current sensing
+- Embedded closed-loop control
+
+The controller is based on STM32 and supports configurable PWM frequency, duty-cycle management, and current feedback monitoring.
+
+---
+
+# Main Features
+
+- STM32-based PWM generation
+- Closed-loop current control
+- High-current MOSFET driver stage
+- Analog current sensing
+- Real-time ADC feedback
+- Adjustable PWM frequency
+- Configurable current limits
+- Overcurrent protection
+- Thermal monitoring support
+- EMI-conscious PCB design
+
+---
+
+# Planned Hardware
+
+## Power Stage
+
+- N-channel MOSFET switching stage
+- Gate driver with dead-time considerations
+- Current shunt sensing
+- Snubber and protection networks
+- Thermal management system
+
+## Control Section
+
+- STM32 MCU
+- ADC-based current feedback
+- PWM timer peripherals
+- Fault detection logic
+- UART/CAN diagnostics interface
+
+---
+
+# Planned Firmware Features
+
+- PID-based current regulation
+- Soft-start functionality
+- Dynamic duty-cycle adjustment
+- Current filtering and averaging
+- Fault detection & shutdown
+- Real-time telemetry
+- Calibration utilities
+
+---
+
+# Potential Applications
+
+- DC motor control
+- Battery charging systems
+- LED power regulation
+- Industrial actuators
+- Power electronics experimentation
+- Embedded control research
+
+---
+
+# Development Status
+
+Early architecture and design phase.
+
+Planned future additions:
+
+- CAN bus integration
+- ESP32 telemetry module
+- Remote monitoring dashboard
+- Data logging
+- Advanced fault diagnostics
+
+---
+
+# Notes
+
+This repository documents the development process, hardware architecture, firmware structure, and validation/testing procedures for a production-oriented embedded power control platform.
