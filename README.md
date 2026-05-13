@@ -33,7 +33,7 @@ This repository contains a collection of real-world power electronics projects, 
 |---|---|
 | projects/ | Individual hardware projects |
 | pcb/ | PCB layouts and renders |
-| simulations/ | LTSpice and simulation files |
+| simulations/ | Proteus and simulation files |
 | firmware/ | Embedded firmware examples |
 | measurements/ | Oscilloscope captures and tests |
 | docs/ | Calculations, theory, datasheets |
